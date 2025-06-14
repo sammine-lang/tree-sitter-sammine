@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "sammine",
+      "camelcase": "Sammine",
+      "title": "Sammine",
+      "scope": "source.sammine",
+      "file-types": [
+        "mn"
+      ],
+      "injection-regex": "^sammine$",
+      "class-name": "TreeSitterSammine"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Parser for the educational front end sammine-lang",
+    "authors": [
+      {
+        "name": "badumbatish",
+        "email": "thisisjjasmine@gmail.com",
+        "url": "https://badumbatish.github.io/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-sammine"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
