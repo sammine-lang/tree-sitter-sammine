@@ -9,6 +9,7 @@
       "file-types": [
         "mn"
       ],
+      "highlights":  ["queries/highlights.scm"],
       "injection-regex": "^sammine$",
       "class-name": "TreeSitterSammine"
     }
@@ -27,6 +28,12 @@
     "links": {
       "repository": "https://github.com/tree-sitter/tree-sitter-sammine"
     }
+  },
+  "theme": {
+      "keyword": "red",
+      "function": "blue",
+      "type": "purple",
+      "number": "orange"
   },
   "bindings": {
     "c": true,
