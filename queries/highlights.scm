@@ -11,11 +11,13 @@
 ; highlight the function’s name
 (function_item
   name: (identifier) @function.name)
-
+(number) @number
 (parameter
   type: (primitive_type) @type)
 (parameter
   type: (identifier) @type)
+(parameter
+  type: (identifier) @parameter.definition)
 
 (function_item
   return_type: (primitive_type) @type)
