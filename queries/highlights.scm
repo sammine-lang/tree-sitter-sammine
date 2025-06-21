@@ -1,7 +1,7 @@
 ; queries/highlights.scm
 
 ; highlight the “fn” keyword
-(function_item "fn" @keyword)
+(function_item "fn" @keyword.declaration)
 (if_statement "if" @keyword.control)
 (if_statement "else" @keyword.control)
 (return_statement "return" @keyword.control)

@@ -30,6 +30,11 @@
     }
   },
   "theme": {
+      "keyword.function":   "red",
+      "keyword.control":    "red",
+      "keyword.declaration":"red",
+      "function.definition":"blue",
+      "function.call":      "blue",
       "keyword": "red",
       "function": "blue",
       "type": "purple",
